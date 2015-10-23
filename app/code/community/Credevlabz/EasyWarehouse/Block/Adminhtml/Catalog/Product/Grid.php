@@ -1,4 +1,7 @@
 <?php
+/*
+* @Author : Credevator
+*/
 
 class Credevlabz_EasyWarehouse_Block_Adminhtml_Catalog_Product_Grid extends Mage_Adminhtml_Block_Catalog_Product_Grid
 {
