@@ -2,7 +2,7 @@
 class Credevlabz_EasyWarehouse_Helper_Data extends Mage_Core_Helper_Abstract
 {
 	public function getStoreId(){
-		return Mage::app()->getRequest()->getParam('store');
+		return (Mage::app()->getRequest()->getParam('store')) ? Mage::app()->getRequest()->getParam('store') : 0;
 	}
 }
 	 
