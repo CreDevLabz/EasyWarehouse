@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<config>
+  <modules>
+    <Credevlabz_EasyWarehouse>
+      <active>true</active>
+      <codePool>community</codePool>
+      <version>1.0.1</version>
+    </Credevlabz_EasyWarehouse>
+  </modules>
+</config>
