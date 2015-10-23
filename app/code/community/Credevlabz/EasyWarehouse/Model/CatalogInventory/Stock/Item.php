@@ -28,7 +28,7 @@ class Credevlabz_EasyWarehouse_Model_CatalogInventory_Stock_Item extends Mage_Ca
 	public function setStockId($stockId = NULL)
 	{
 		if(is_null($stockId)){
-			$stockId = (Mage::app()->getStore()->getId()) ? Mage::app()->getStore()->getId() : Mage::helper('easywarehouse')->getStoreId();
+			$stockId = Mage::helper('easywarehouse')->getStoreId();
 		}
 		$this->_stockId =$stockId;
 		return $this;
