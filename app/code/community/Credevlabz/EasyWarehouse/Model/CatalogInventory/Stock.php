@@ -1,4 +1,7 @@
 <?php
+/*
+* @Author : Credevator
+*/
 class Credevlabz_EasyWarehouse_Model_CatalogInventory_Stock extends Mage_CatalogInventory_Model_Stock
 {
 	public function getId(){
