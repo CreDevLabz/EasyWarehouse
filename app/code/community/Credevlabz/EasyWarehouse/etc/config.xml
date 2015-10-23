@@ -16,10 +16,15 @@
 		<class>Credevlabz_EasyWarehouse_Block</class>
 	  </easywarehouse>
 	  <adminhtml>
-			<rewrite>
-				<catalog_product_edit_tab_inventory>Credevlabz_EasyWarehouse_Block_Adminhtml_Catalog_Product_Edit_Tab_Inventory</catalog_product_edit_tab_inventory>
-			</rewrite>
-		</adminhtml>
+		<rewrite>
+			<catalog_product_edit_tab_inventory>Credevlabz_EasyWarehouse_Block_Adminhtml_Catalog_Product_Edit_Tab_Inventory</catalog_product_edit_tab_inventory>
+		</rewrite>
+	</adminhtml>
+	<adminhtml>
+		<rewrite>
+			<catalog_product_grid>Credevlabz_EasyWarehouse_Block_Adminhtml_Catalog_Product_Grid</catalog_product_grid>
+		</rewrite>
+	</adminhtml>
 	</blocks>
 	<models>
 		<cataloginventory>
